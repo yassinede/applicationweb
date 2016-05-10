@@ -1,0 +1,19 @@
+#entete, #menu, #content, #footer{
+	padding:1Px 0;
+}
+#entete{
+	background-color:#FF990;
+	text-align:center;
+}
+#menu{
+width:960px;
+margin:auto;
+position:relative;
+	
+}
+#menu{
+	width:240px;
+	position:absolute;
+	background-color:#FF3366;
+	
+}

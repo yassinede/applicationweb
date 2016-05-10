@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{
+background-image:url("for.jpg");
+}
+#page{
+height:900px;
+margin-left:200px;
+margin-right:200px;
+margin-top:60px;
+margin-bottom:60px;
+background-color:#FFFFFF;
+
+}
+img{
+float:left;
+}
+#entete{
+
+height:100px;
+background-image:url("ceil.png" );
+background-repeat:no-repeat;
+
+
+}
+#article{
+
+margin-right:50px;
+margin-left:50px;
+height:600px;
+background-repeat:no-repeat;
+
+}
+h1{
+text-align:center;
+}
+p{
+text-align:justify;
+margin-left:auto;
+}
+ol{
+text-align:left;
+}
+#footer{
+
+margin-top:150px;
+text-align:center;
+
+}
+ul.menu_horizontale, ul#list_produits,ul#list_services{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color: #f3f3f3;
+border: 1px solid #e7e7e7;
+}
+
+ul.menu_horizontale li{
+	float: left;
+}
+
+#list_services, #list_produits{
+	display: none;
+}
+
+li a{
+text-align:center;
+display:block;
+color:#666;
+padding:14px 16px;
+text-decoration:none;
+}
+li a.active{
+color:white;
+background-color:#4CAF50;
+
+}
+a:hover:not(.active){
+background-color:#ddd;
+}
+#list_services, #list_produits{
+display:none;
+position:absolute;
+background-color:#f9f9f9;
+max-width:160px;
+box-shadow:0px 16px 0px rgba(0,0,0,0.2);
+}
+#link_list_services:hover #list_services{
+display:block;
+}
+#link_list_produits:hover #list_produits{
+display:block;
+}
+
+
+</style>
+</head>
+<body>
+<div id="page">
+	<div id="entete">
+	</div>
+	<div id ="article">
+	<ul class="menu_horizontale">
+		<li><a href="#">accuille</a></li>
+		<li id="link_list_services"><a href="#" class="active">service</a>
+			<ul id ="list_services">
+				<li><a href="#">service1</a></li>
+				<li><a href="#">service2</a></li>
+				<li><a href="#">service3</a></li>
+				<li><a href="#">service4</a></li>
+			</ul>
+		</li>		
+		<li id="link_list_produits"><a href="#">produits</a>
+			<ul id="list_produits">
+				<li><a href="#">produit1</a></li>
+				<li><a href="#">produit2</a></li>
+				<li><a href="#">produit3</a></li>
+				<li><a href="#">produit4</a></li>
+			</ul>
+		</li>
+			<li><a href="#">Contactez</a></li>
+			<li><a href="#">A propàs</a></li>
+	</ul>
+	<hr>
+	<img src="etd.jpg">
+	<h1><u>Formation Continue</u> </h1>
+	<ol type="1" start="1">
+<p><b><li>Gestion:</li></b>Management, Marketing, Gestion commerciale, Gestion financière, Gestion des ressources humaines, Organisation et gestion de l’entreprise, Fiscalité, Comptabilité assistée par ordinateur, Comptabilité budgétaire, Gestion et animation des réunions…
+<b><li>Management:</li></b>Le Management englobe l’ensemble des techniques d’organisation de ressources (financières, humaines, matérielles…) mises en œuvre pour la gestion et l’administration d’une organisation (entreprise, association, administration…).
+<b><li>Logistique:</li></b>Supply chain management, Transport maritime, Transport routier, Géographie Mondiale, Gestion des ports, Commerce international, Transaction commerciales internationales, Gestion des stocks, Gestion de production et approvisionnement, Progiciels de gestion…
+<b><li>Comptabilité:</li></b>Comptabilité générale, Comptabilité analytique, Comptabilité assistée par ordinateur.
+<b><li>Informatique:</li></b>Bureautique, Langage de programmation, Réseaux informatiques et internet, Web design, Création des pages web, Dessin assisté par ordinateur, Logiciels de gestion de projet…
+<b><li>Qualité:</li></b>Au sens large, la qualité est la « manière d'être », bonne ou mauvaise, de quelque chose. Dans le langage courant, la qualité tend à désigner ce qui rend quelque chose supérieur à la moyenne.
+<b><li>Ressources humaines:</li></b>Les ressources humaines sont l'ensemble des collaborateurs de tous statuts (ouvriers, employés, cadres) appartenant à l'organisation mais aussi – et de plus en plus – liés à elle par des rapports de sujétion (ainsi, les collaborateurs des sous-traitants sont considérés comme faisant partie de fait du périmètre des ressources humaines de l'entreprise).
+<b><li>Douane:</li></b>La douane est une institution fiscale chargée de la perception des droits et taxes dus à l'entrée de marchandises sur un territoire. Son activité est réglementée par le droit national, mais aussi par des accords internationaux (OMC, traités de libre-échange, etc.).
+<b><li>Langues et communication:</li></b>Français, Anglais, Espagnol, Coaching, Développement personnel, Techniques de communication</p>
+</ol>	
+	</div>
+	<div id="footer">
+	@copyraite
+	
+	</div>
+</div>
+
+
+
+</body>
+</html>
